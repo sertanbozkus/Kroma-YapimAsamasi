@@ -63,8 +63,8 @@ export default {
         },
         paint: {
           bronze: "hsl(var(--paint-bronze))",
-          taupe: "hsl(var(--paint-taupe))",
-          charcoal: "hsl(var(--paint-charcoal))",
+          espresso: "hsl(var(--paint-espresso))",
+          cognac: "hsl(var(--paint-cognac))",
         },
         wall: {
           base: "hsl(var(--wall-base))",
