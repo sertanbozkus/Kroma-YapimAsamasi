@@ -14,7 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        nunito: ["Nunito", "sans-serif"],
+        display: ["Cormorant Garamond", "serif"],
+        body: ["Montserrat", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -61,12 +62,9 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         paint: {
-          orange: "hsl(var(--paint-orange))",
-          blue: "hsl(var(--paint-blue))",
-          green: "hsl(var(--paint-green))",
-          pink: "hsl(var(--paint-pink))",
-          purple: "hsl(var(--paint-purple))",
-          yellow: "hsl(var(--paint-yellow))",
+          bronze: "hsl(var(--paint-bronze))",
+          taupe: "hsl(var(--paint-taupe))",
+          charcoal: "hsl(var(--paint-charcoal))",
         },
         wall: {
           base: "hsl(var(--wall-base))",
