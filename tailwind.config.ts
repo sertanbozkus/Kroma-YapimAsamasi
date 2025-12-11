@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        nunito: ["Nunito", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,18 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        paint: {
+          orange: "hsl(var(--paint-orange))",
+          blue: "hsl(var(--paint-blue))",
+          green: "hsl(var(--paint-green))",
+          pink: "hsl(var(--paint-pink))",
+          purple: "hsl(var(--paint-purple))",
+          yellow: "hsl(var(--paint-yellow))",
+        },
+        wall: {
+          base: "hsl(var(--wall-base))",
+          painted: "hsl(var(--wall-painted))",
         },
       },
       borderRadius: {
