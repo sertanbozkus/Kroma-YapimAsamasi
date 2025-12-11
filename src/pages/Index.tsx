@@ -1,5 +1,3 @@
-import painterWorker from "@/assets/painter-worker.png";
-
 const Index = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-background">
@@ -62,17 +60,6 @@ const Index = () => {
             <p className="text-sm text-muted-foreground mt-2 font-medium">
               Boyama devam ediyor...
             </p>
-          </div>
-        </div>
-
-        {/* Painter character */}
-        <div className="absolute bottom-0 right-4 md:right-12 lg:right-24">
-          <div className="bounce-gentle">
-            <img
-              src={painterWorker}
-              alt="Boyacı işçi"
-              className="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 object-contain drop-shadow-lg"
-            />
           </div>
         </div>
 
