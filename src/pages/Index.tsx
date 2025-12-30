@@ -56,11 +56,18 @@ const Index = () => {
           </div>
         </div>
 
+        {/* Footer */}
+        <div className="absolute bottom-6 left-0 right-0 text-center opacity-0 animate-fade-in-up animation-delay-600">
+          <p className="text-xs text-muted-foreground tracking-wide">
+            © 2025 Kroma Mimarlık. Tüm Hakları Saklıdır.
+          </p>
+        </div>
+
         {/* Subtle corner decorations */}
         <div className="absolute top-8 left-8 w-12 h-12 border-l border-t border-border/50 opacity-0 animate-fade-in-up" />
         <div className="absolute top-8 right-8 w-12 h-12 border-r border-t border-border/50 opacity-0 animate-fade-in-up" />
-        <div className="absolute bottom-8 left-8 w-12 h-12 border-l border-b border-border/50 opacity-0 animate-fade-in-up" />
-        <div className="absolute bottom-8 right-8 w-12 h-12 border-r border-b border-border/50 opacity-0 animate-fade-in-up" />
+        <div className="absolute bottom-16 left-8 w-12 h-12 border-l border-b border-border/50 opacity-0 animate-fade-in-up" />
+        <div className="absolute bottom-16 right-8 w-12 h-12 border-r border-b border-border/50 opacity-0 animate-fade-in-up" />
       </div>
     </div>
   );
