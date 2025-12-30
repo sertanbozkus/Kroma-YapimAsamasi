@@ -4,53 +4,53 @@
 
 @layer base {
   :root {
-    --background: 38 22% 92%;
-    --foreground: 25 35% 10%;
+    --background: 220 15% 95%;
+    --foreground: 220 25% 12%;
 
-    --card: 38 28% 95%;
-    --card-foreground: 25 35% 10%;
+    --card: 220 20% 97%;
+    --card-foreground: 220 25% 12%;
 
-    --popover: 38 28% 95%;
-    --popover-foreground: 25 35% 10%;
+    --popover: 220 20% 97%;
+    --popover-foreground: 220 25% 12%;
 
-    --primary: 28 55% 25%;
-    --primary-foreground: 38 28% 95%;
+    --primary: 215 35% 28%;
+    --primary-foreground: 220 20% 97%;
 
-    --secondary: 35 30% 78%;
-    --secondary-foreground: 25 35% 12%;
+    --secondary: 215 15% 82%;
+    --secondary-foreground: 220 25% 15%;
 
-    --muted: 36 20% 82%;
-    --muted-foreground: 25 25% 30%;
+    --muted: 218 12% 85%;
+    --muted-foreground: 220 15% 38%;
 
-    --accent: 30 45% 55%;
-    --accent-foreground: 25 35% 10%;
+    --accent: 210 25% 50%;
+    --accent-foreground: 220 25% 12%;
 
     --destructive: 0 65% 42%;
-    --destructive-foreground: 38 28% 95%;
+    --destructive-foreground: 220 20% 97%;
 
-    --border: 32 25% 68%;
-    --input: 32 25% 68%;
-    --ring: 28 55% 25%;
+    --border: 215 18% 72%;
+    --input: 215 18% 72%;
+    --ring: 215 35% 28%;
 
     --radius: 0.125rem;
 
-    /* Luxury paint colors - rich warm tones */
-    --paint-bronze: 28 55% 32%;
-    --paint-espresso: 25 50% 18%;
-    --paint-cognac: 30 60% 40%;
+    /* Metallic paint colors - blue silver tones */
+    --paint-steel: 215 30% 45%;
+    --paint-slate: 220 25% 25%;
+    --paint-silver: 210 15% 65%;
 
     /* Wall colors */
-    --wall-base: 36 22% 85%;
-    --wall-painted: 28 55% 32%;
+    --wall-base: 218 12% 88%;
+    --wall-painted: 215 30% 45%;
 
-    --sidebar-background: 38 22% 92%;
-    --sidebar-foreground: 25 30% 18%;
-    --sidebar-primary: 25 35% 10%;
-    --sidebar-primary-foreground: 38 28% 95%;
-    --sidebar-accent: 36 20% 85%;
-    --sidebar-accent-foreground: 25 35% 10%;
-    --sidebar-border: 32 20% 75%;
-    --sidebar-ring: 28 55% 25%;
+    --sidebar-background: 220 15% 95%;
+    --sidebar-foreground: 220 20% 22%;
+    --sidebar-primary: 220 25% 12%;
+    --sidebar-primary-foreground: 220 20% 97%;
+    --sidebar-accent: 218 12% 88%;
+    --sidebar-accent-foreground: 220 25% 12%;
+    --sidebar-border: 215 15% 78%;
+    --sidebar-ring: 215 35% 28%;
   }
 
   .dark {
@@ -154,13 +154,13 @@
 
 @keyframes colorCycle {
   0%, 100% {
-    background-color: hsl(var(--paint-bronze));
+    background-color: hsl(var(--paint-steel));
   }
   33% {
-    background-color: hsl(var(--paint-espresso));
+    background-color: hsl(var(--paint-slate));
   }
   66% {
-    background-color: hsl(var(--paint-cognac));
+    background-color: hsl(var(--paint-silver));
   }
 }
 
@@ -176,19 +176,19 @@
 @keyframes paintExpand {
   0% {
     width: 0%;
-    background-color: hsl(var(--paint-bronze));
+    background-color: hsl(var(--paint-steel));
   }
   33% {
     width: 50%;
-    background-color: hsl(var(--paint-espresso));
+    background-color: hsl(var(--paint-slate));
   }
   66% {
     width: 85%;
-    background-color: hsl(var(--paint-cognac));
+    background-color: hsl(var(--paint-silver));
   }
   100% {
     width: 100%;
-    background-color: hsl(var(--paint-bronze));
+    background-color: hsl(var(--paint-steel));
   }
 }
 
