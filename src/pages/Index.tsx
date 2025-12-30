@@ -20,10 +20,10 @@ const Index = () => {
           <div className="mb-12 opacity-0 animate-fade-in-up">
             <div className="inline-flex flex-col items-center">
               <div className="w-16 h-16 md:w-20 md:h-20 border-2 border-primary/60 flex items-center justify-center">
-                <span className="font-display text-3xl md:text-4xl font-semibold text-primary tracking-wider">L</span>
+                <span className="font-display text-3xl md:text-4xl font-semibold text-primary tracking-wider">K</span>
               </div>
               <div className="mt-3 text-xs md:text-sm tracking-[0.4em] uppercase text-muted-foreground font-light">
-                Luxury Brand
+                Kroma Mimarlık
               </div>
             </div>
           </div>
@@ -39,11 +39,6 @@ const Index = () => {
           <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-medium mb-6 opacity-0 animate-fade-in-up animation-delay-200 text-foreground tracking-wide">
             Yapım Aşamasında
           </h1>
-
-          {/* Subtitle */}
-          <p className="text-lg md:text-xl font-light mb-10 opacity-0 animate-fade-in-up animation-delay-400 text-muted-foreground tracking-widest uppercase">
-            Eşsiz Bir Deneyim Hazırlıyoruz
-          </p>
 
           {/* Description */}
           <p className="text-sm md:text-base mb-16 opacity-0 animate-fade-in-up animation-delay-600 text-muted-foreground max-w-lg mx-auto font-light leading-relaxed">
