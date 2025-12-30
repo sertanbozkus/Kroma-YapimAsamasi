@@ -62,9 +62,9 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         paint: {
-          bronze: "hsl(var(--paint-bronze))",
-          espresso: "hsl(var(--paint-espresso))",
-          cognac: "hsl(var(--paint-cognac))",
+          steel: "hsl(var(--paint-steel))",
+          slate: "hsl(var(--paint-slate))",
+          silver: "hsl(var(--paint-silver))",
         },
         wall: {
           base: "hsl(var(--wall-base))",
