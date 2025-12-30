@@ -4,53 +4,54 @@
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 220 30% 8%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 30% 8%;
+    --card-foreground: 0 0% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 8%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 215 40% 22%;
+    --primary: 0 0% 15%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 215 15% 85%;
-    --secondary-foreground: 220 30% 10%;
+    --secondary: 0 0% 92%;
+    --secondary-foreground: 0 0% 12%;
 
-    --muted: 220 10% 90%;
-    --muted-foreground: 220 20% 32%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 35%;
 
-    --accent: 210 25% 50%;
-    --accent-foreground: 220 30% 8%;
+    --accent: 0 0% 45%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 65% 42%;
-    --destructive-foreground: 220 20% 97%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 215 18% 72%;
-    --input: 215 18% 72%;
-    --ring: 215 35% 28%;
+    --border: 0 0% 78%;
+    --input: 0 0% 78%;
+    --ring: 0 0% 15%;
 
     --radius: 0.125rem;
 
-    /* Metallic paint colors - blue silver tones */
-    --paint-steel: 215 30% 45%;
-    --paint-slate: 220 25% 25%;
-    --paint-silver: 210 15% 65%;
+    /* Dynamic paint colors - varied tones */
+    --paint-charcoal: 0 0% 20%;
+    --paint-terracotta: 15 45% 45%;
+    --paint-forest: 160 35% 35%;
+    --paint-navy: 220 40% 30%;
 
     /* Wall colors */
-    --wall-base: 218 12% 88%;
-    --wall-painted: 215 30% 45%;
+    --wall-base: 0 0% 96%;
+    --wall-painted: 0 0% 20%;
 
-    --sidebar-background: 220 15% 95%;
-    --sidebar-foreground: 220 20% 22%;
-    --sidebar-primary: 220 25% 12%;
-    --sidebar-primary-foreground: 220 20% 97%;
-    --sidebar-accent: 218 12% 88%;
-    --sidebar-accent-foreground: 220 25% 12%;
-    --sidebar-border: 215 15% 78%;
-    --sidebar-ring: 215 35% 28%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 15%;
+    --sidebar-primary: 0 0% 8%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 94%;
+    --sidebar-accent-foreground: 0 0% 8%;
+    --sidebar-border: 0 0% 85%;
+    --sidebar-ring: 0 0% 15%;
   }
 
   .dark {
@@ -154,13 +155,16 @@
 
 @keyframes colorCycle {
   0%, 100% {
-    background-color: hsl(var(--paint-steel));
+    background-color: hsl(var(--paint-charcoal));
   }
-  33% {
-    background-color: hsl(var(--paint-slate));
+  25% {
+    background-color: hsl(var(--paint-terracotta));
   }
-  66% {
-    background-color: hsl(var(--paint-silver));
+  50% {
+    background-color: hsl(var(--paint-forest));
+  }
+  75% {
+    background-color: hsl(var(--paint-navy));
   }
 }
 
@@ -176,19 +180,23 @@
 @keyframes paintExpand {
   0% {
     width: 0%;
-    background-color: hsl(var(--paint-steel));
+    background-color: hsl(var(--paint-charcoal));
   }
-  33% {
-    width: 50%;
-    background-color: hsl(var(--paint-slate));
+  25% {
+    width: 35%;
+    background-color: hsl(var(--paint-terracotta));
   }
-  66% {
+  50% {
+    width: 60%;
+    background-color: hsl(var(--paint-forest));
+  }
+  75% {
     width: 85%;
-    background-color: hsl(var(--paint-silver));
+    background-color: hsl(var(--paint-navy));
   }
   100% {
     width: 100%;
-    background-color: hsl(var(--paint-steel));
+    background-color: hsl(var(--paint-charcoal));
   }
 }
 
